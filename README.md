@@ -1,7 +1,5 @@
 # IzTech-phaseOTDR-dataset
-Dataset for the article below:  
-
-"An Intensity and Phase Stacked Analysis of Φ-OTDR System using Deep Transfer Learning and Recurrent Neural Networks"
+Dataset for the article below: 
 
 Ceyhun Efe Kayan, Kivilcim Yuksel Aldogan, and Abdurrahman Gumus, “Intensity and phase stacked analysis of a Φ-OTDR system using deep transfer learning and recurrent neural networks,” Applied Optics 62, 1753-1764 (2023) [(link to paper)](https://opg.optica.org/ao/abstract.cfm?uri=ao-62-7-1753) 
 
@@ -21,7 +19,7 @@ https://drive.google.com/drive/folders/1U_fTdhzhofmb6wNdpwNNhbNoScKgNt21?usp=sha
 
 Using main.m, one can plot the Phase-OTDR traces by extracting the data from the *.mat file and placing it as rows in a matrix (tracematrix).
 
-→Just needed to change the filename (example: trname='08Sept2017_2V_500Hz')
+→ Just needed to change the filename (example: trname='08Sept2017_2V_500Hz')
 
 In this way, rows in the matrix represent the spatial distribution, and each column presents the variation of the trace at a particular position during the slow-time window. Then, A bandpass filtering is applied for collecting the frequency components centered around the pulse modulator’s frequency shift (an acousto-optic modulator was used in the set up imposing a frequency shift of 𝐹<sub>𝐴𝑂𝑀</sub> = 160 MHz (the filter can be implemented by various ways).
 
@@ -35,11 +33,8 @@ The following procedures are implemented on tracematrix to obtain the final temp
 * The first column of the phase matrix is subtracted from other columns to remove the “initial phase” caused by the laser source.
 * The mode of each term in the phase matrix with 2𝜋 is calculated (not included in the main.m)
 
-
-
-
-
 ## Citation 
+
 If you use the IzTech-phaseOTDR-dataset in your research, please cite our related publication: 
 
 ```bibtex
