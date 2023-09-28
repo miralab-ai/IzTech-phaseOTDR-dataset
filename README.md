@@ -1,7 +1,7 @@
 # IzTech-phaseOTDR-dataset
 Dataset for the article below: 
 
-Ceyhun Efe Kayan, Kivilcim Yuksel Aldogan, and Abdurrahman Gumus, “Intensity and phase stacked analysis of a Φ-OTDR system using deep transfer learning and recurrent neural networks,” Applied Optics 62, 1753-1764 (2023) [(link to paper)](https://opg.optica.org/ao/abstract.cfm?uri=ao-62-7-1753) 
+Ceyhun Efe Kayan, Kivilcim Yuksel Aldogan, and Abdurrahman Gumus, “**Intensity and phase stacked analysis of a Φ-OTDR system using deep transfer learning and recurrent neural networks**,” Applied Optics 62, 1753-1764 (2023) [(link to paper)](https://opg.optica.org/ao/abstract.cfm?uri=ao-62-7-1753) 
 
 ## Dataset: 
 includes Raw Data files for 15 different cases presented in the article. 
